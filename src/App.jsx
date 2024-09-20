@@ -12,12 +12,14 @@ function App() {
   <>
       <BrowserRouter>
         <Navbar />
+        <div className="max-w-7xl mx-auto pt-20 px-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
+        </div>
       </BrowserRouter>
   </>
   )
