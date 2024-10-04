@@ -5,12 +5,12 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-// import user1 from "../assets/profile-pictures/user1.jpg";
-// import user2 from "../assets/profile-pictures/user2.jpg";
-// import user3 from "../assets/profile-pictures/user3.jpg";
-// import user4 from "../assets/profile-pictures/user4.jpg";
-// import user5 from "../assets/profile-pictures/user5.jpg";
-// import user6 from "../assets/profile-pictures/user6.jpg";
+import user1 from "../assets/pictures/user1.jpg";
+import user2 from "../assets/pictures/user2.jpg";
+import user3 from "../assets/pictures/user3.jpg";
+import user4 from "../assets/pictures/user4.jpg";
+import user5 from "../assets/pictures/user5.jpg";
+import user6 from "../assets/pictures/user6.jpg";
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -18,6 +18,28 @@ export const navItems = [
   { label: "Services", href: "/services" },
   { label: "Contact", href: "contact" },
 ];
+
+export const swiperContent = [
+  {
+    image: user1,
+  },
+  {
+    image: user2,
+  },
+  {
+    image: user3,
+  },
+  {
+    image: user4,
+  },
+  {
+    image: user5,
+  },
+  {
+    image: user6,
+  },
+
+]
 
 export const testimonials = [
   {
@@ -175,4 +197,39 @@ export const communityLinks = [
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
+];
+
+
+export const PRODUCTS = [
+  { name: "Drag And Drop", link: "#" },
+  { name: "Visual Studio X", link: "#" },
+  { name: "Easy Content", link: "#" },
+];
+export const RESOURCES = [
+  { name: "Industries and tools", link: "#" },
+  { name: "Use cases", link: "#" },
+  { name: "Blog", link: "#" },
+  { name: "Online evenet", link: "#" },
+  { name: "Nostrud exercitation", link: "#" },
+];
+export const COMPANY = [
+  { name: "Diversity & inclusion", link: "#" },
+  { name: "About us", link: "#" },
+  { name: "Press", link: "#" },
+  { name: "Customer Stories", link: "#" },
+  { name: "Online communities", link: "#" },
+];
+export const SUPPORT = [
+  { name: "Documentation", link: "#" },
+  { name: "Tutorials & guides", link: "#" },
+  { name: "Webinars", link: "#" },
+  { name: "Open-source", link: "#" },
+];
+
+export const Icons = [
+  { name: "logo-facebook", link: "#" },
+  { name: "logo-twitter", link: "#" },
+  { name: "logo-github", link: "#" },
+  { name: "logo-linkedin", link: "#" },
+  { name: "logo-instagram", link: "#" },
 ];
