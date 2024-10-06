@@ -7,7 +7,7 @@ const Contact = () => {
   const [agreed, setAgreed] = useState(false)
   return (
    <>
-   <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 ">
+   <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 relative z-0">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem]  transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"

@@ -15,8 +15,9 @@ import user6 from "../assets/pictures/user6.jpg";
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "Contact", href: "contact" },
+  { label: "Submissions", href: "/submissions" },
+  { label: "Archive", href: "/archive" },
+  { label: "SignUp/Login", href: "/signup-login" },
 ];
 
 export const swiperContent = [

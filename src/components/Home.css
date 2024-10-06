@@ -20,8 +20,8 @@
   }
 } */
 .swiper_container {
-  height: 80vh; /* Scale according to viewport height */
-  max-height: 40rem; /* Ensure it doesn't exceed a certain height */
+  height: 80vh;
+  max-height: 42rem;
   padding: 2rem 0;
   position: relative;
 }
@@ -49,7 +49,7 @@
 
 .swiper-slide img {
   width: 100%; /* Fill the entire container width */
-  height: 40rem; /* Force a consistent height */
+  height: 30rem; /* Force a consistent height */
   border-radius: 2rem;
   object-fit: cover; /* Ensures image fills the area, may crop if needed */
 }
@@ -101,7 +101,7 @@
 }
 
 .slider-controler .slider-arrow {
-  background: var(--white);
+  background: white;
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
@@ -112,7 +112,7 @@
 
 .slider-controler .slider-arrow ion-icon {
   font-size: 2rem;
-  color: #222224;
+  color: #222224 !important;
 }
 
 .slider-controler .slider-arrow::after {
