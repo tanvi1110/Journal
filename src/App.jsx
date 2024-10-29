@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
 
         <Navbar />
-        <div className="max-w-7xl mx-auto pt-20 px-6 z-0">
+        <div className="max-w-7xl mx-auto px-6 z-0">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

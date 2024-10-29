@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, EffectCoverflow } from 'swiper/modules'; // New path for modules
 import {swiperContent} from '../constants/index';
@@ -24,6 +24,9 @@ const people = [
   },
   // More people...
 ]
+
+import bgImage from '../assets/pc1.png';
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -31,29 +34,35 @@ import 'swiper/css/navigation';
 import './Home.css'
 
 const Home = () => {
+
   return (
     <>
     {/* section 1 ----> content */}
-    <div className="flex flex-col lg:flex-col sm:justify-center justify-between items-center mt-6 lg:mt-20">
-      <div className="">
-       <h1 className='text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide'>
-       Unlocking Insights: Your Gateway to 
-       <span className='bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text'>
-        {" "} 
-        Groundbreaking Research and Knowledge
-       </span>
-       </h1>
-       <p className='mt-5 text-center p-3 bg-cyan-800'>
-       Data science is a multidisciplinary field that combines statistical analysis, programming, 
-       and domain expertise to extract meaningful insights from large sets of data. By leveraging 
-       tools like machine learning, artificial intelligence, and data visualization, data scientists 
-       can analyze patterns, make predictions, and drive data-driven decision-making across various 
-       industries. Whether it’s improving customer experiences, optimizing business processes, or 
-       discovering new trends, data science plays a critical role in turning raw data into actionable knowledge.
-       </p>
-      </div>
-    
-    </div>
+    <div className="relative ">
+              
+                <div className=" items-center min-h-screen flex justify-around relative flex-wrap">
+                  <>
+                    <div className="-z-10 bg-[#592994fd] h-[362px] w-[362px] absolute rounded-full blur-[120px] filter -top-[100px]  -left-20 opacity-75"></div>
+                  </>
+                  <div className="max-w-xl relative">
+                    <h1 className="font-IBMPlexBold text-6xl max-w-md text-left uppercase">
+                    Insights   <span className="text-[#9630d5]">and</span> Innovations
+                    </h1>
+                    <p className="font-IBMPlexRegular text-left">
+                    A space for data insights and discovery—explore, learn, and shape a data-driven future with us.
+                    </p>
+                    
+                  </div>
+                  <div>
+                    <img
+                      width="500"
+                      height="500"
+                      alt="bg-image"
+                      src={bgImage}
+                    />
+                  </div>
+                </div>
+              </div>
     {/* section 2 ---> swiper */}
     <div className="mt-10 lg:mt-15">
 

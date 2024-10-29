@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="stick top-0 z-10 py-3 backdrop-blur-lg ">
+        <div className="stick top-0 z-50 py-3 backdrop-blur-lg ">
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <NavLink to="/" >
